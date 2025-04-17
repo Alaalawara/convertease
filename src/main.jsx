@@ -8,10 +8,10 @@ import './index.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter basename="/convertease">
-    <CustomThemeProvider>
-    <App />
-    </CustomThemeProvider>
-      </BrowserRouter>
+    <BrowserRouter>
+      <CustomThemeProvider>
+        <App />
+      </CustomThemeProvider>
+    </BrowserRouter>
   </React.StrictMode>
 );
